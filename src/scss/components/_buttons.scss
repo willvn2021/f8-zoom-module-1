@@ -1,0 +1,37 @@
+.btn {
+    display: block;
+    background-color: var(--primary-color-orange);
+    color: var(--white-color);
+    border-radius: 5px;
+
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    width: 138px;
+    height: 56px;
+    line-height: 56px;
+
+    transition: box-shadow 0.3s ease-in-out;
+
+    &:hover {
+        box-shadow: 0px -4px 0px 0px #d5430e inset;
+    }
+}
+
+.btn--outline {
+    display: block;
+    padding: 12px 24px;
+    border-radius: 100px;
+    border: 1px solid var(--primary-color-orange);
+    background: var(--white-color);
+
+    color: var(--primary-color-orange);
+    font-family: var(--input-font-Manrope);
+    font-size: 2rem;
+
+    transition: box-shadow 0.3s ease-in-out;
+
+    &:hover {
+        box-shadow: 0px 4px 4px 0px rgba(156, 156, 156, 0.25);
+    }
+}

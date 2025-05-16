@@ -1,0 +1,99 @@
+.footer {
+    margin-top: 58px;
+    border-top: 1px solid #f2f2f2;
+
+    &__main {
+        margin-top: 60px;
+    }
+
+    &__heading {
+        margin-bottom: 25px;
+        color: #000;
+        font-family: var(--input-font-Manrope);
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__item {
+        & + & {
+            margin-top: 15px;
+        }
+    }
+
+    &__link {
+        color: #000;
+        text-decoration: none;
+        font-family: var(--input-font-Manrope);
+
+        transition: color 0.2s ease-in-out;
+
+        &:hover {
+            color: var(--primary-color-orange);
+        }
+    }
+
+    &__payment-logo {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    &__social-link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        transition: color 0.2s ease-in-out;
+
+        &:hover {
+            color: var(--primary-color-orange);
+        }
+    }
+
+    &__column {
+        &--last {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+    }
+
+    &__bottom {
+        margin-top: 70px;
+    }
+
+    &__contact-info {
+        line-height: 2.2;
+    }
+
+    &__certification {
+        display: flex;
+        align-items: center;
+        gap: 35px;
+
+        &-img {
+            max-width: 195px;
+
+            &:nth-child(2) {
+                max-width: 62px;
+            }
+            &:nth-child(3) {
+                max-width: 54px;
+            }
+        }
+    }
+
+    &__copyright {
+        background-color: #fff4f1;
+        height: 50px;
+        line-height: 50px;
+
+        &-text {
+            text-align: center;
+            color: #909090;
+            font-family: "Inter", sans-serif;
+        }
+    }
+}

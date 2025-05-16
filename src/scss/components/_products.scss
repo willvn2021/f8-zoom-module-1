@@ -1,0 +1,200 @@
+.product-grid {
+    margin-top: 15px;
+
+    &__view-all {
+        margin-top: 15px;
+    }
+    &__btn-view-all {
+        margin: 0 auto;
+        font-family: var(--title-font-Poppins);
+        font-size: 1.6rem;
+    }
+}
+
+.product-card {
+    border-radius: 30px;
+    padding: 12px;
+    border: 1px solid #f2f2f2;
+    background: var(--white-color);
+
+    &__thumbnail-wrap {
+        position: relative;
+        max-width: 198px;
+        max-height: 198px;
+    }
+
+    &__fav-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__fav-icon {
+        position: absolute;
+        top: 12px;
+        right: 10px;
+
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background-color: #ffffffe6;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        transition: background-color 0.2s ease-in-out;
+
+        &:hover {
+            background-color: var(--primary-color-orange);
+        }
+        &:hover img {
+            filter: brightness(0) saturate(100%) invert(100%) sepia(10%)
+                saturate(7458%) hue-rotate(216deg) brightness(110%)
+                contrast(112%);
+        }
+    }
+
+    &__img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    &__info {
+        margin-top: 12px;
+    }
+
+    &__title {
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-family: var(--title-font-Poppins);
+    }
+
+    &__price {
+        margin-top: 8px;
+        color: var(--primary-color-orange);
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+
+    &__action {
+        margin-top: 12px;
+    }
+
+    &__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+
+        width: 100%;
+        padding: 10px 37px;
+        color: var(--primary-color-orange);
+        background-color: var(--primary-color-orange-2);
+
+        border-radius: 130px;
+
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+
+        &:hover {
+            background-color: var(--primary-color-orange);
+            color: var(--white-color);
+        }
+
+        &:hover img {
+            filter: brightness(0) saturate(100%) invert(100%) sepia(10%)
+                saturate(7458%) hue-rotate(216deg) brightness(110%)
+                contrast(112%);
+        }
+    }
+}
+
+// Top Product
+.top-product {
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #f2f2f2;
+    background: var(--white-color);
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        background-color: var(--primary-color-orange-2);
+        border-radius: 10px;
+        width: 100%;
+        padding: 12px 17px;
+    }
+
+    &__title {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #404040;
+    }
+
+    &__navi-link.heading-row__navi-link {
+        background-color: var(--white-color);
+    }
+
+    &__list {
+        margin-top: 25px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        & + & {
+            margin-top: 36px;
+        }
+    }
+
+    &__img {
+        display: block;
+
+        max-width: 80px;
+        max-height: 70px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    &__info-link {
+        text-decoration: none;
+    }
+
+    &__name {
+        font-family: var(--title-font-Poppins);
+
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+
+    &__price {
+        color: var(--primary-color-orange);
+        font-weight: 600;
+    }
+
+    &__rating {
+        &-star {
+            color: var(--primary-color-orange);
+            font-size: 1.2rem;
+        }
+        &-value {
+            color: #3e3e3e;
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 1.43;
+        }
+        &-count {
+            color: #787777;
+            font-size: 1.4rem;
+            font-weight: 500;
+        }
+    }
+}

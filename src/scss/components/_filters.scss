@@ -1,0 +1,33 @@
+.filter-product {
+    margin-top: 40px;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    &__item {
+        padding: 6px 30px;
+        color: var(--primary-color-orange);
+        border-radius: 50px;
+        box-shadow: 14px 21px 47.1px 0px #fefefe;
+        border: 1px solid var(--primary-color-orange);
+        transition: all 0.2s ease-in-out;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover,
+        &--active {
+            background-color: var(--primary-color-orange);
+            color: #fff;
+        }
+    }
+    &__link {
+        font-size: 1.4rem;
+        font-weight: 600;
+        line-height: 1.43;
+        text-decoration: none;
+    }
+}

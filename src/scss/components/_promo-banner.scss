@@ -1,0 +1,112 @@
+.promo-banner {
+    margin-top: 40px;
+    width: 100%;
+    min-height: 295px;
+
+    &__bg {
+        position: relative;
+        background-image: linear-gradient(to right, #ff9f7c, #ed5a25);
+        border-radius: 30px;
+        overflow: hidden;
+
+        &--cherry {
+            background-image: linear-gradient(to right, #792000, #a7370f);
+        }
+    }
+
+    &__bg-right {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__content {
+        text-align: center;
+        margin: 0 auto;
+        z-index: 3;
+    }
+
+    &__title {
+        font-size: 3.2rem;
+        font-weight: 600;
+        color: var(--white-color);
+    }
+    &__desc {
+        margin-top: 14px;
+        color: var(--white-color);
+        max-width: 370px;
+    }
+    &__btn {
+        margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        color: var(--primary-color-orange);
+        padding: 10px 20px;
+        background-color: var(--white-color);
+        border: 1px solid var(--primary-color-orange);
+        border-radius: 30px;
+        font-size: 1.4rem;
+        font-weight: 500;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        transition: box-shadow 0.2s ease-in-out;
+
+        &:hover {
+            box-shadow: 0px 4px 4px 0px rgba(156, 156, 156, 0.25);
+        }
+    }
+
+    &__btn-icon {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: var(--primary-color-orange-2);
+        padding: 10px;
+        font-size: 1rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+    &__img-3d {
+        margin-right: 25px;
+        & img {
+            display: block;
+        }
+    }
+}
+
+.promo-card {
+    background-color: var(--primary-color-orange);
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+
+    &__img {
+        display: block;
+        max-width: 433px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        margin-top: 5px;
+        text-align: center;
+        font-size: 3.2rem;
+        font-weight: 600;
+        color: var(--white-color);
+    }
+}

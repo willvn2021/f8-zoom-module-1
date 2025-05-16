@@ -1,0 +1,65 @@
+:root {
+    --primary-color-orange: #ed5a25;
+    --primary-color-orange-2: #fff4f1;
+
+    --white-color: #fff;
+
+    --input-font-Manrope: "Manrope", sans-serif;
+    --title-font-Poppins: "Poppins", sans-serif;
+
+    --text-color-grey: #404040;
+    --text-color-dark: #323232;
+}
+
+// @include mixins.screen(xl) {
+//         background: green;
+//     }
+
+//     @include mixins.screen(lg) {
+//         background: brown;
+//     }
+
+//     @include mixins.screen(md) {
+//         background: blue;
+//     }
+
+//     @include mixins.screen(sm) {
+//         background: yellow;
+//     }
+
+// Common
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    color: #04112a;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+button,
+input,
+textarea,
+select {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+a {
+    color: inherit;
+}

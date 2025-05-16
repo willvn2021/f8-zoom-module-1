@@ -1,0 +1,50 @@
+.hero {
+    position: relative;
+    margin-top: 20px;
+    background-color: #ffdbce;
+    border-radius: 30px;
+    min-height: 426px;
+    overflow: hidden;
+
+    &__visuals {
+        flex-basis: 55%;
+        position: relative;
+        min-height: 400px;
+    }
+
+    &__character {
+        position: absolute;
+        top: 66px;
+        right: 132px;
+        max-width: 345px;
+        z-index: 3;
+    }
+
+    &__card-brawlha {
+        position: absolute;
+        top: 45px;
+        right: 449px;
+        min-width: 143px;
+        z-index: 4;
+    }
+    &__card-fortnite {
+        position: absolute;
+        right: 19px;
+        bottom: 0px;
+        z-index: 4;
+    }
+    &__gift-red {
+        position: absolute;
+        right: 415px;
+        bottom: 55px;
+        min-height: 82px;
+        z-index: 3;
+    }
+    &__gift-yellow {
+        position: absolute;
+        top: 87px;
+        right: 80px;
+        min-width: 105px;
+        z-index: 3;
+    }
+}
