@@ -6,6 +6,38 @@
     min-height: 426px;
     overflow: hidden;
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__content {
+        margin: 0 auto;
+
+        &-link {
+            display: block;
+            text-decoration: none;
+        }
+
+        &-title {
+            text-align: center;
+            font-size: 3.2rem;
+            font-weight: 600;
+            color: var(--primary-color-orange);
+            transition: opacity 0.2s ease-in-out;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+
+        &-desc {
+            margin-top: 14px;
+            color: var(--primary-color-orange);
+            max-width: 370px;
+            text-align: center;
+        }
+    }
+
     &__visuals {
         flex-basis: 55%;
         position: relative;

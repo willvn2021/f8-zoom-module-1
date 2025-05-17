@@ -1,0 +1,1796 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
+        <%- include('partials/head.ejs') %> %>
+    </head>
+    <body>
+        <!-- Header Include -->
+        <%- include('partials/header.ejs') %>
+        <main class="container">
+            <div class="main-content">
+                <div class="row">
+                    <div class="col-3">
+                        <aside class="sidebar">
+                            <section class="sidebar-frame">
+                                <h2 class="sidebar-frame__title">
+                                    Danh mục sản phẩm
+                                </h2>
+                                <ul class="category__list">
+                                    <li class="category__item">
+                                        <a href="#" class="category__link">
+                                            Mobile Game Cards
+                                        </a>
+                                    </li>
+                                    <li class="category__item">
+                                        <a href="#" class="category__link">
+                                            Game Cards
+                                        </a>
+                                    </li>
+                                    <li class="category__item">
+                                        <a href="#" class="category__link">
+                                            Payment Cards
+                                        </a>
+                                    </li>
+                                    <li class="category__item">
+                                        <a href="#" class="category__link">
+                                            Gift Cards
+                                        </a>
+                                    </li>
+                                    <li class="category__item">
+                                        <a href="#" class="category__link">
+                                            Game Console
+                                        </a>
+                                    </li>
+                                    <li class="category__item">
+                                        <a href="#" class="category__link">
+                                            Game CD-Key
+                                        </a>
+                                    </li>
+                                    <li class="category__item">
+                                        <a href="#" class="category__link">
+                                            Video Streaming
+                                        </a>
+                                    </li>
+                                    <li class="category__item">
+                                        <a href="#" class="category__link">
+                                            Music
+                                        </a>
+                                    </li>
+                                    <li class="category__item">
+                                        <a href="#" class="category__link">
+                                            Shopping
+                                        </a>
+                                    </li>
+                                    <li class="category__item">
+                                        <a href="#" class="category__link">
+                                            Telco Prepaid Cards
+                                        </a>
+                                    </li>
+                                    <li class="category__item">
+                                        <a href="#" class="category__link">
+                                            Tools
+                                        </a>
+                                    </li>
+                                    <li class="category__item">
+                                        <a href="#" class="category__link">
+                                            Software
+                                        </a>
+                                    </li>
+                                    <li class="category__item">
+                                        <a href="#" class="category__link">
+                                            Social App
+                                        </a>
+                                    </li>
+                                    <li class="category__item">
+                                        <a href="#" class="category__link">
+                                            Freebie Codes
+                                        </a>
+                                    </li>
+                                    <li class="category__item">
+                                        <a href="#" class="category__link">
+                                            Subscript
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section class="sidebar-frame">
+                                <h2 class="sidebar-frame__title">Khoảng giá</h2>
+                                <div class="price-range">
+                                    <div class="price-range__slider">
+                                        <div class="price-filter">
+                                            <div
+                                                class="price-filter__slider-track"
+                                            ></div>
+                                            <div
+                                                class="price-filter__range-selected"
+                                                style="left: 20%; width: 40%"
+                                            ></div>
+                                            <div
+                                                class="price-filter__thumb price-filter__thumb--min"
+                                                style="left: 20%"
+                                            ></div>
+                                            <div
+                                                class="price-filter__thumb price-filter__thumb--max"
+                                                style="left: 60%"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                    <div class="price-range__display">
+                                        Price:
+                                        <span class="price-range__value">
+                                            500.000 - 1.000.000
+                                        </span>
+                                    </div>
+                                    <button class="price-range__apply-button">
+                                        Lọc
+                                    </button>
+                                </div>
+                            </section>
+                            <section class="sidebar-frame">
+                                <h2 class="sidebar-frame__title">Đánh giá</h2>
+                                <div class="rating-filter">
+                                    <div class="rating-filter__item">
+                                        <input
+                                            type="checkbox"
+                                            id="checkbox-orange"
+                                            class="checkbox-orange"
+                                            hidden
+                                            checked
+                                        />
+                                        <label
+                                            for="checkbox-orange"
+                                            class="checkbox-orange__label"
+                                        >
+                                            <span
+                                                class="checkbox-orange__custom"
+                                            >
+                                                <i
+                                                    class="fas fa-check checkbox-orange__icon"
+                                                >
+                                                </i>
+                                            </span>
+                                            <div class="star-row">
+                                                <div class="star-row--orange">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--orange">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--orange">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--orange">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--grey">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                            </div>
+                                            <span class="rating-filter__count">
+                                                (120k)
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="rating-filter__item">
+                                        <input
+                                            type="checkbox"
+                                            id="checkbox-orange2"
+                                            class="checkbox-orange"
+                                            hidden
+                                        />
+                                        <label
+                                            for="checkbox-orange2"
+                                            class="checkbox-orange__label"
+                                        >
+                                            <span
+                                                class="checkbox-orange__custom"
+                                            >
+                                                <i
+                                                    class="fas fa-check checkbox-orange__icon"
+                                                >
+                                                </i>
+                                            </span>
+                                            <div class="star-row">
+                                                <div class="star-row--orange">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--orange">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--orange">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--orange">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--grey">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                            </div>
+                                            <span class="rating-filter__count">
+                                                (120k)
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="rating-filter__item">
+                                        <input
+                                            type="checkbox"
+                                            id="checkbox-orange3"
+                                            class="checkbox-orange"
+                                            hidden
+                                        />
+                                        <label
+                                            for="checkbox-orange3"
+                                            class="checkbox-orange__label"
+                                        >
+                                            <span
+                                                class="checkbox-orange__custom"
+                                            >
+                                                <i
+                                                    class="fas fa-check checkbox-orange__icon"
+                                                >
+                                                </i>
+                                            </span>
+                                            <div class="star-row">
+                                                <div class="star-row--orange">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--orange">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--orange">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--grey">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--grey">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                            </div>
+                                            <span class="rating-filter__count">
+                                                (120k)
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="rating-filter__item">
+                                        <input
+                                            type="checkbox"
+                                            id="checkbox-orange4"
+                                            class="checkbox-orange"
+                                            hidden
+                                        />
+                                        <label
+                                            for="checkbox-orange4"
+                                            class="checkbox-orange__label"
+                                        >
+                                            <span
+                                                class="checkbox-orange__custom"
+                                            >
+                                                <i
+                                                    class="fas fa-check checkbox-orange__icon"
+                                                >
+                                                </i>
+                                            </span>
+                                            <div class="star-row">
+                                                <div class="star-row--orange">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--orange">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--grey">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--grey">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--grey">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                            </div>
+                                            <span class="rating-filter__count">
+                                                (120k)
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="rating-filter__item">
+                                        <input
+                                            type="checkbox"
+                                            id="checkbox-orange5"
+                                            class="checkbox-orange"
+                                            hidden
+                                        />
+                                        <label
+                                            for="checkbox-orange5"
+                                            class="checkbox-orange__label"
+                                        >
+                                            <span
+                                                class="checkbox-orange__custom"
+                                            >
+                                                <i
+                                                    class="fas fa-check checkbox-orange__icon"
+                                                >
+                                                </i>
+                                            </span>
+                                            <div class="star-row">
+                                                <div class="star-row--orange">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--grey">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--grey">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--grey">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                                <div class="star-row--grey">
+                                                    <i
+                                                        class="fa-solid fa-star"
+                                                    ></i>
+                                                </div>
+                                            </div>
+                                            <span class="rating-filter__count">
+                                                (120k)
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="sidebar-frame">
+                                <h2 class="sidebar-frame__title">
+                                    Thương hiệu
+                                </h2>
+                                <div class="brand-filter">
+                                    <div class="brand-filter__item">
+                                        <div class="brand-filter__checkbox-wrap">
+                                            <input
+                                                type="checkbox"
+                                                id="checkbox-apple"
+                                                class="checkbox-orange"
+                                                hidden
+                                            />
+                                            <label
+                                                for="checkbox-apple"
+                                                class="checkbox-orange__label"
+                                            >
+                                                <span
+                                                    class="checkbox-orange__custom"
+                                                >
+                                                    <i
+                                                        class="fas fa-check checkbox-orange__icon"
+                                                    >
+                                                    </i>
+                                                </span>
+                                        </div>
+                                        <span class="brand-filter__name">
+                                            Apple
+                                        </span>
+                                    </div>
+                                    <div class="brand-filter__item">
+                                        <div class="brand-filter__checkbox-wrap">
+                                            <input
+                                                type="checkbox"
+                                                id="checkbox-google"
+                                                class="checkbox-orange"
+                                                hidden
+                                            />
+                                            <label
+                                                for="checkbox-google"
+                                                class="checkbox-orange__label"
+                                            >
+                                                <span
+                                                    class="checkbox-orange__custom"
+                                                >
+                                                    <i
+                                                        class="fas fa-check checkbox-orange__icon"
+                                                    >
+                                                    </i>
+                                                </span>
+                                        </div>
+                                        <span class="brand-filter__name">
+                                            Google
+                                        </span>
+                                    </div>
+                                    <div class="brand-filter__item">
+                                        <div class="brand-filter__checkbox-wrap">
+                                            <input
+                                                type="checkbox"
+                                                id="checkbox-microsoft"
+                                                class="checkbox-orange"
+                                                hidden
+                                            />
+                                            <label
+                                                for="checkbox-microsoft"
+                                                class="checkbox-orange__label"
+                                            >
+                                                <span
+                                                    class="checkbox-orange__custom"
+                                                >
+                                                    <i
+                                                        class="fas fa-check checkbox-orange__icon"
+                                                    >
+                                                    </i>
+                                                </span>
+                                        </div>
+                                        <span class="brand-filter__name">
+                                            Microsoft
+                                        </span>
+                                    </div>
+                                    <div class="brand-filter__item">
+                                        <div class="brand-filter__checkbox-wrap">
+                                            <input
+                                                type="checkbox"
+                                                id="checkbox-amazon"
+                                                class="checkbox-orange"
+                                                hidden
+                                            />
+                                            <label
+                                                for="checkbox-amazon"
+                                                class="checkbox-orange__label"
+                                            >
+                                                <span
+                                                    class="checkbox-orange__custom"
+                                                >
+                                                    <i
+                                                        class="fas fa-check checkbox-orange__icon"
+                                                    >
+                                                    </i>
+                                                </span>
+                                        </div>
+                                        <span class="brand-filter__name">
+                                            Amazon
+                                        </span>
+                                    </div>
+                                    <div class="brand-filter__item">
+                                        <div class="brand-filter__checkbox-wrap">
+                                            <input
+                                                type="checkbox"
+                                                id="checkbox-mcdonald"
+                                                class="checkbox-orange"
+                                                hidden
+                                            />
+                                            <label
+                                                for="checkbox-mcdonald"
+                                                class="checkbox-orange__label"
+                                            >
+                                                <span
+                                                    class="checkbox-orange__custom"
+                                                >
+                                                    <i
+                                                        class="fas fa-check checkbox-orange__icon"
+                                                    >
+                                                    </i>
+                                                </span>
+                                        </div>
+                                        <span class="brand-filter__name">
+                                            McDonald's
+                                        </span>
+                                    </div>
+                                    <div class="brand-filter__item">
+                                        <div class="brand-filter__checkbox-wrap">
+                                            <input
+                                                type="checkbox"
+                                                id="checkbox-visa"
+                                                class="checkbox-orange"
+                                                hidden
+                                            />
+                                            <label
+                                                for="checkbox-visa"
+                                                class="checkbox-orange__label"
+                                            >
+                                                <span
+                                                    class="checkbox-orange__custom"
+                                                >
+                                                    <i
+                                                        class="fas fa-check checkbox-orange__icon"
+                                                    >
+                                                    </i>
+                                                </span>
+                                        </div>
+                                        <span class="brand-filter__name">
+                                            Visa
+                                        </span>
+                                    </div>
+                                    <div class="brand-filter__item">
+                                        <div class="brand-filter__checkbox-wrap">
+                                            <input
+                                                type="checkbox"
+                                                id="checkbox-tencent"
+                                                class="checkbox-orange"
+                                                hidden
+                                            />
+                                            <label
+                                                for="checkbox-tencent"
+                                                class="checkbox-orange__label"
+                                            >
+                                                <span
+                                                    class="checkbox-orange__custom"
+                                                >
+                                                    <i
+                                                        class="fas fa-check checkbox-orange__icon"
+                                                    >
+                                                    </i>
+                                                </span>
+                                        </div>
+                                        <span class="brand-filter__name">
+                                            Tencent
+                                        </span>
+                                    </div>
+                                    <div class="brand-filter__item">
+                                        <div class="brand-filter__checkbox-wrap">
+                                            <input
+                                                type="checkbox"
+                                                id="checkbox-louisvuitton"
+                                                class="checkbox-orange"
+                                                hidden
+                                            />
+                                            <label
+                                                for="checkbox-louisvuitton"
+                                                class="checkbox-orange__label"
+                                            >
+                                                <span
+                                                    class="checkbox-orange__custom"
+                                                >
+                                                    <i
+                                                        class="fas fa-check checkbox-orange__icon"
+                                                    >
+                                                    </i>
+                                                </span>
+                                        </div>
+                                        <span class="brand-filter__name">
+                                            Louis Vuitton
+                                        </span>
+                                    </div>
+                                    <div class="brand-filter__item">
+                                        <div class="brand-filter__checkbox-wrap">
+                                            <input
+                                                type="checkbox"
+                                                id="checkbox-mastercard"
+                                                class="checkbox-orange"
+                                                hidden
+                                            />
+                                            <label
+                                                for="checkbox-mastercard"
+                                                class="checkbox-orange__label"
+                                            >
+                                                <span
+                                                    class="checkbox-orange__custom"
+                                                >
+                                                    <i
+                                                        class="fas fa-check checkbox-orange__icon"
+                                                    >
+                                                    </i>
+                                                </span>
+                                        </div>
+                                        <span class="brand-filter__name">
+                                            Master Card
+                                        </span>
+                                    </div>
+                                    <div class="brand-filter__item">
+                                        <div class="brand-filter__checkbox-wrap">
+                                            <input
+                                                type="checkbox"
+                                                id="checkbox-cocacola"
+                                                class="checkbox-orange"
+                                                hidden
+                                            />
+                                            <label
+                                                for="checkbox-cocacola"
+                                                class="checkbox-orange__label"
+                                            >
+                                                <span
+                                                    class="checkbox-orange__custom"
+                                                >
+                                                    <i
+                                                        class="fas fa-check checkbox-orange__icon"
+                                                    >
+                                                    </i>
+                                                </span>
+                                        </div>
+                                        <span class="brand-filter__name">
+                                            Coca-Cola
+                                        </span>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- Promo Banner Vertical -->
+                            <section class="promo-banner-vertical">
+                                <div class="promo-banner-vertical__bg">
+                                    <div class="promo-banner-vertical__main">
+                                        <div class="promo-banner-vertical__img">
+                                            <a href="!#" class="promo-banner-vertical__link">
+                                                <img src="./img/promo-3dgift-yellow-02.svg" alt="" />
+                                            </a>
+                                        </div>
+
+                                        <div class="promo-banner__content">
+                                            <a href="!#" class="promo-banner-vertical__link">
+                                                <h2 class="promo-banner__title promo-banner-vertical__title">
+                                                    Card voucher hot news
+                                                </h2>
+                                            </a>
+                                            <button class="promo-banner__btn">
+                                                View all
+                                                <div class="promo-banner__btn-icon">
+                                                    <i class="fa-solid fa-arrow-right"></i>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </aside>
+                    </div>
+                    <div class="col-9">
+                        <section class="product-listing">
+                            <span class="product-listing__label">
+                                Showing 1-12
+                            </span>
+                            <div class="row row-cols-4">
+                                <div class="col">
+                        <article class="product-card">
+                            <div class="product-card__thumbnail-wrap">
+                                <div class="product-card__fav-icon">
+                                    <a href="#!" class="product-card__fav-link">
+                                        <img
+                                            src="./img/icons/icon-heart.svg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                                <a href="#!">
+                                    <img
+                                        src="./img/products/product-img-01.jpg"
+                                        alt=""
+                                        class="product-card__img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="product-card__info">
+                                <a href="#!" class="product-card__title">
+                                    <h3>Target Gift Card 50$ (US)- Order</h3>
+                                </a>
+                                <span class="product-card__price">
+                                    120.000 ~ 134.000
+                                </span>
+                            </div>
+                            <div class="product-card__action">
+                                <button class="product-card__btn">
+                                    <img
+                                        src="./img/icons/icon-cart.svg"
+                                        alt=""
+                                    />
+                                    Mua ngay
+                                </button>
+                            </div>
+                        </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-02.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-03.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-04.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-05.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-06.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-07.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-08.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-01.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-02.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-03.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-04.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-05.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-06.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-07.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-08.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-03.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-04.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-05.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-06.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-01.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-02.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-03.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-04.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-05.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-06.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-07.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col">
+                                    <article class="product-card">
+                                        <div class="product-card__thumbnail-wrap">
+                                            <div class="product-card__fav-icon">
+                                                <a href="#!" class="product-card__fav-link">
+                                                    <img
+                                                        src="./img/icons/icon-heart.svg"
+                                                        alt=""
+                                                    />
+                                                </a>
+                                            </div>
+                                            <a href="#!">
+                                                <img
+                                                    src="./img/products/product-img-08.jpg"
+                                                    alt=""
+                                                    class="product-card__img"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="product-card__info">
+                                            <a href="#!" class="product-card__title">
+                                                <h3>Target Gift Card 50$ (US)- Order</h3>
+                                            </a>
+                                            <span class="product-card__price">
+                                                120.000 ~ 134.000
+                                            </span>
+                                        </div>
+                                        <div class="product-card__action">
+                                            <button class="product-card__btn">
+                                                <img
+                                                    src="./img/icons/icon-cart.svg"
+                                                    alt=""
+                                                />
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="product-listing__pagination">
+                                <nav class="pagination">
+                                    <ul class="pagination__list">
+                                        <li class="pagination__item pagination__item--disabled">
+                                            <a href="#!" class="pagination__link pagination__link--arrow">
+                                                <i class="fa-solid fa-arrow-left pagination__icon"></i>
+                                            </a>
+                                        </li>
+
+                                        <li class="pagination__item">
+                                             <a href="#!" class="pagination__link pagination__link--number pagination__link--active">
+                                                1
+                                             </a>
+                                        </li>
+                                        <li class="pagination__item">
+                                             <a href="#!" class="pagination__link pagination__link--number">
+                                                2
+                                             </a>
+                                        </li>
+                                        <li class="pagination__item">
+                                             <a href="#!" class="pagination__link pagination__link--number">
+                                                3
+                                             </a>
+                                        </li>
+                                        <li class="pagination__item">
+                                             <a href="#!" class="pagination__link pagination__link--number">
+                                                4
+                                             </a>
+                                        </li>
+
+                                        <li class="pagination__item">
+                                            <a href="#!" class="pagination__link pagination__link--arrow">
+                                                <i class="fa-solid fa-arrow-right pagination__icon"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Footer Include -->
+        <%- include('partials/footer.ejs') %>
+        <script type="module" src="./main.js"></script>
+    </body>
+</html>

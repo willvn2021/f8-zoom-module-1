@@ -1,0 +1,73 @@
+.sidebar {
+}
+
+.sidebar-frame {
+    background-origin: 2px;
+    border: 1px solid #e5e5e5;
+    padding: 12px 22px;
+    margin-bottom: 24px;
+
+    &__title {
+        display: flex;
+        align-items: center;
+        padding-bottom: 12px;
+
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom: 12px;
+
+        padding-left: 22px;
+        padding-right: 22px;
+        margin-left: -22px;
+        margin-right: -22px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+}
+
+// Category List
+.category__list {
+}
+
+.category__link {
+    text-decoration: none;
+    color: #3e3e3e;
+    line-height: 2;
+
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+        color: var(--primary-color-orange);
+    }
+}
+
+// Price Range
+.price-range {
+    &__slider {
+        margin-top: 32px;
+    }
+
+    &__display {
+        padding: 28px 0;
+        font-weight: 600;
+    }
+    &__value {
+        font-weight: 700;
+        font-family: var(--input-font-Manrope);
+    }
+
+    &__apply-button {
+        background-color: var(--primary-color-orange);
+        color: var(--white-color);
+        padding: 6px 0;
+        border-radius: 5px;
+        min-width: 88px;
+
+        margin-bottom: 30px;
+
+        transition: box-shadow 0.3s ease-in-out;
+
+        &:hover {
+            box-shadow: 0px -4px 0px 0px #d5430e inset;
+        }
+    }
+}

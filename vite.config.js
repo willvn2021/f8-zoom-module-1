@@ -21,6 +21,7 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 index: path.resolve(__dirname, "src/index.html"),
+                index: path.resolve(__dirname, "src/collection.html"),
                 account: path.resolve(__dirname, "src/account.html"),
                 // Thêm trang khác nếu có
             },

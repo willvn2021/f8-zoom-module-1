@@ -110,3 +110,32 @@
         color: var(--white-color);
     }
 }
+
+// Promo Banner Vertical
+
+.promo-banner-vertical {
+    &__bg {
+        position: relative;
+        padding: 60px 20px;
+        border-radius: 25px;
+        background-color: #ffdacd;
+        overflow: hidden;
+    }
+
+    &__title {
+        color: #951418;
+        font-size: 2.5rem;
+        margin: 30px 0;
+
+        transition: color 0.2s ease-in-out;
+
+        &:hover {
+            color: var(--primary-color-orange);
+        }
+    }
+
+    &__link {
+        display: block;
+        text-decoration: none;
+    }
+}

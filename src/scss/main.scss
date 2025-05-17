@@ -8,6 +8,7 @@
 @use "./layout/grid";
 @use "./layout/header";
 @use "./layout/footer";
+@use "./layout/sidebar";
 
 // Components
 @use "./components/buttons";
@@ -22,6 +23,11 @@
 // Pages
 @use "./pages/home";
 @use "./pages/contact";
+
+// Common Page
+.main-content {
+    margin-top: 25px;
+}
 
 // Features
 .features {
@@ -152,5 +158,20 @@
         &:hover {
             color: var(--primary-color-orange);
         }
+    }
+}
+
+// Collection Page
+
+.product-listing {
+    &__label {
+        display: block;
+        margin-bottom: 24px;
+    }
+
+    &__pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
     }
 }
