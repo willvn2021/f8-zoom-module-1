@@ -67,3 +67,10 @@ a {
 .bg-gradient {
     background: linear-gradient(to right, #fff5f2, #f2f5ff);
 }
+
+.bg-header {
+    background-image: url(/img/bg-header-decor.svg),
+        linear-gradient(to right, #ffede8, #ffc5af);
+    background-repeat: no-repeat no-repeat;
+    background-size: 100% 228px, 100% 228px;
+}

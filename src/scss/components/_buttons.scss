@@ -41,6 +41,21 @@
     }
 }
 
+.btn-account-info {
+    padding: 4px 12px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    background: #ffdbce;
+
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+        color: var(--primary-color-orange);
+    }
+}
+
 .checkbox-orange {
     &__label {
         display: flex;

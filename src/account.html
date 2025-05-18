@@ -1,12 +1,222 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Account</title>
+        <title>Acount</title>
+        <%- include('partials/head.ejs') %> %>
     </head>
     <body>
-        <h1>Account</h1>
+        <!-- Header Include -->
+        <%- include('partials/header.ejs') %>
+        <div class="bg-header">
+            <div class="account-wrap">
+                <main class="container">
+                    <div class="user-dashboard">
+                        <div class="row">
+                            <div class="col-4">
+                                <aside class="profile-sidebar">
+                                    <div class="user-avatar">
+                                        <img
+                                            src="./img/user-avatar-01.jpg"
+                                            alt="Nguyễn Xuân Việt"
+                                            class="user-avatar__img"
+                                        />
+                                        <span class="user-avatar__btn-upload">
+                                            <i class="fa-solid fa-camera"></i>
+                                        </span>
+                                    </div>
+                                    <h2 class="profile-sidebar__name">
+                                        Nguyễn Xuân Việt
+                                    </h2>
+                                    <div class="profile-sidebar__link">
+                                        <a
+                                            href="#!"
+                                            class="btn-account-info profile-sidebar__link-btn"
+                                            >Thông tin tài khoản</a
+                                        >
+                                    </div>
+                                    <div
+                                        class="line-two-dot profile-sidebar__line"
+                                    ></div>
+                                    <nav class="profile-sidebar__nav">
+                                        <ul class="profile-sidebar__list">
+                                            <li
+                                                class="profile-sidebar__item profile-sidebar__item--active"
+                                            >
+                                                <a
+                                                    href="#!"
+                                                    class="profile-sidebar__nav-link"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-user profile-sidebar__nav-icon"
+                                                    ></i>
+                                                    Tài khoản
+                                                </a>
+                                            </li>
+                                            <li class="profile-sidebar__item">
+                                                <a
+                                                    href="#!"
+                                                    class="profile-sidebar__nav-link"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-clock-rotate-left profile-sidebar__nav-icon"
+                                                    ></i>
+                                                    Lịch sử mua hàng
+                                                </a>
+                                            </li>
+                                            <li class="profile-sidebar__item">
+                                                <a
+                                                    href="#!"
+                                                    class="profile-sidebar__nav-link"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-clock-rotate-left profile-sidebar__nav-icon"
+                                                    ></i>
+                                                    Nạp tiền & Rút tiền
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </aside>
+                            </div>
+                            <div class="col-8">
+                                <div class="account-overview">
+                                    <h1 class="account-overview__title">
+                                        Tổng quan tài khoản
+                                    </h1>
+                                    <div class="account-overview__grid">
+                                        <div class="row row-cols-2">
+                                            <div class="col">
+                                                <section
+                                                    class="account-overview__card"
+                                                >
+                                                    <h3
+                                                        class="account-overview__card-title"
+                                                    >
+                                                        Số dư hiện tại
+                                                    </h3>
+                                                    <div
+                                                        class="line-two-dot account-overview__card-line"
+                                                    ></div>
+                                                    <div
+                                                        class="account-overview__balance"
+                                                    >
+                                                        <div
+                                                            class="account-overview__balance-item"
+                                                        >
+                                                            <img
+                                                                src="./img/icons/coin-icon.svg"
+                                                                alt="Coin"
+                                                                class="account-overview__balance-icon"
+                                                            />
+                                                            <span
+                                                                class="account-overview__balance-value"
+                                                                >18.000</span
+                                                            >
+                                                            <span
+                                                                class="account-overview__balance-currency"
+                                                                >đ</span
+                                                            >
+                                                        </div>
+                                                        <button
+                                                            class="btn-account-info account-overview__balance-btn"
+                                                        >
+                                                            Nạp tiền
+                                                        </button>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col">
+                                                <section
+                                                    class="account-overview__card"
+                                                >
+                                                    <header
+                                                        class="account-overview__card-header"
+                                                    >
+                                                        <h3
+                                                            class="account-overview__card-title"
+                                                        >
+                                                            Lịch sử mua hàng
+                                                        </h3>
+                                                        <a
+                                                            href="#!"
+                                                            class="account-overview__card-view-all-link"
+                                                        >
+                                                            Xem thêm
+                                                            <i
+                                                                class="fa-solid fa-angle-right"
+                                                            ></i>
+                                                        </a>
+                                                    </header>
+                                                    <div
+                                                        class="account-overview__stats"
+                                                    >
+                                                        <div
+                                                            class="account-overview__stats-item"
+                                                        >
+                                                            <span
+                                                                class="account-overview__stats-value"
+                                                                >12</span
+                                                            >
+                                                            <div
+                                                                class="account-overview__stats-label"
+                                                            >
+                                                                Chờ xử lý
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="account-overview__stats-item"
+                                                        >
+                                                            <span
+                                                                class="account-overview__stats-value"
+                                                                >8</span
+                                                            >
+                                                            <div
+                                                                class="account-overview__stats-label"
+                                                            >
+                                                                Đang xử lý
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="account-overview__stats-item"
+                                                        >
+                                                            <span
+                                                                class="account-overview__stats-value"
+                                                                >8</span
+                                                            >
+                                                            <div
+                                                                class="account-overview__stats-label"
+                                                            >
+                                                                Hoàn thành
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="account-overview__stats-item"
+                                                        >
+                                                            <span
+                                                                class="account-overview__stats-value"
+                                                                >8</span
+                                                            >
+                                                            <div
+                                                                class="account-overview__stats-label"
+                                                            >
+                                                                Bị hủy
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <%- include('partials/footer.ejs') %>
         <script type="module" src="./main.js"></script>
     </body>
 </html>
