@@ -1,0 +1,131 @@
+// Features
+.features {
+    margin-top: 40px;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+
+        color: #3e3e3e;
+        font-size: 1.8rem;
+        font-weight: 600;
+        line-height: 1.56;
+    }
+
+    &__icon {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: var(--primary-color-orange-2);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+// Promo Block
+.promo-blocks {
+    margin-top: 40px;
+
+    &__item {
+        min-width: 577px;
+        min-height: 251px;
+        border-radius: 30px;
+        background: #fff4f1;
+    }
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+// Product by Category
+.product-by-category {
+    margin-top: 40px;
+
+    &__product-wrap {
+        margin-top: 40px;
+    }
+
+    &__banner {
+        margin-top: 40px;
+    }
+    &__banner-img {
+        max-width: 575px;
+        max-height: 251px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+// Product best seller
+.product-best-seller {
+    margin-top: 40px;
+
+    &__main {
+        margin-top: 65px;
+    }
+}
+
+// Product New Release
+.product-new-release {
+    margin-top: 40px;
+
+    &__list {
+        margin-top: 40px;
+    }
+}
+
+// News & Promo
+.news-promo {
+    margin-top: 40px;
+
+    &__main {
+        margin-top: 20px;
+    }
+
+    &__item {
+        display: block;
+        padding: 23px;
+        border-radius: 20px;
+        border: 1px solid #ededed;
+        text-decoration: none;
+
+        transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+        &:hover {
+            border-color: var(--primary-color-orange);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    &__img-wrap {
+        max-width: 330px;
+        min-height: 265px;
+    }
+
+    &__img {
+        display: block;
+        width: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+    &__caption {
+        display: block;
+        margin-top: 20px;
+        font-family: var(--title-font-Poppins);
+        font-weight: 400;
+
+        transition: color 0.2s ease-in-out;
+
+        &:hover {
+            color: var(--primary-color-orange);
+        }
+    }
+}

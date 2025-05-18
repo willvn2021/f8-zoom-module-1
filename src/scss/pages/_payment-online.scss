@@ -1,0 +1,108 @@
+.payment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    max-width: 475px;
+    height: 100vh;
+    margin: 0 auto;
+
+    &__title {
+        text-align: center;
+        font-size: 3.2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    &__section {
+        margin-top: 47px;
+
+        &-title {
+            margin-bottom: 14px;
+            font-family: var(--input-font-Manrope);
+            font-weight: 400;
+            line-height: 1.5;
+            text-transform: uppercase;
+        }
+    }
+
+    &__form-wrap {
+        min-width: 475px;
+        border-radius: 15px;
+        border: 1px solid #e5e5e5;
+        background: var(--white-color);
+    }
+
+    &__form-group {
+        margin: 5px 0;
+        padding: 8px 27px;
+        display: flex;
+        align-items: center;
+
+        & + & {
+            border-top: 1px solid #e5e5e5;
+        }
+
+        &--sub {
+            flex: 1;
+        }
+    }
+
+    &__form-label {
+        color: #b8b8b8;
+        font-family: var(--input-font-Manrope);
+        line-height: 1.5;
+        margin-bottom: 0;
+        min-width: 90px;
+        padding-right: 25px;
+
+        &--bold {
+            display: block;
+            color: #121212;
+            font-weight: 600;
+        }
+    }
+
+    &__form-input {
+        border: none;
+        outline: none;
+        background: transparent;
+        width: 100%;
+        height: 100%;
+
+        &--has-icon {
+            max-width: 90%;
+        }
+
+        &-wrap {
+            width: 100%;
+            position: relative;
+        }
+    }
+
+    &-form__input-icon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 15px;
+        color: #868686;
+    }
+
+    &__actions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    &__btn {
+        width: 100%;
+        font-weight: 600;
+        border-radius: 30px;
+    }
+}

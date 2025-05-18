@@ -1,0 +1,14 @@
+// Collection Page
+
+.product-listing {
+    &__label {
+        display: block;
+        margin-bottom: 24px;
+    }
+
+    &__pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+}

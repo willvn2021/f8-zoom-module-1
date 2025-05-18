@@ -7,15 +7,111 @@
         <%- include('partials/head.ejs') %> %>
     </head>
     <body>
-        <!-- Header Include -->
-        <%- include('partials/header.ejs') %>
-        <main class="container">
-            <div class="main-content">
-                <h1>Online Payment</h1>
-            </div>
+        <main class="bg-gradient">
+            <form class="payment">
+                <h1 class="payment__title">ONLINE PAYMENT</h1>
+
+                <section class="payment__section">
+                    <h2 class="payment__section-title">
+                        Thông tin vận chuyển và thanh toán
+                    </h2>
+                    <div class="payment__form-wrap">
+                        <div class="payment__form-group">
+                            <label for="name" class="payment__form-label"
+                                >Tên</label
+                            >
+                            <input
+                                type="text"
+                                id="name"
+                                class="payment__form-input"
+                                placeholder="Nhập Tên của bạn"
+                                value="Toandang"
+                            />
+                        </div>
+                        <div class="payment__form-group">
+                            <label for="name" class="payment__form-label"
+                                >E-mail</label
+                            >
+                            <input
+                                type="text"
+                                id="email"
+                                class="payment__form-input"
+                                placeholder="Nhập E-mail của bạn"
+                                value="toandesignmtcn@gmail.com"
+                            />
+                        </div>
+                    </div>
+                </section>
+                <!-- Payment Card Icon -->
+                <section class="payment__section">
+                    <h2 class="payment__section-title">Thông tin thanh toán</h2>
+                    <div class="payment__form-wrap">
+                        <div class="payment__form-group">
+                            <div class="payment__form-group--sub">
+                                <label
+                                    for="card-number"
+                                    class="payment__form-label payment__form-label--bold"
+                                >
+                                    Số thẻ
+                                </label>
+                                <div class="payment__form-input-wrap">
+                                    <input
+                                        type="text"
+                                        id="card-number"
+                                        class="payment__form-input payment__form-input--has-icon"
+                                        placeholder="Card number"
+                                    />
+                                    <i
+                                        class="far fa-credit-card payment-form__input-icon"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="payment__form-group">
+                            <div class="payment__form-group--sub">
+                                <label
+                                    for="expiry-date"
+                                    class="payment__form-label payment__form-label--bold"
+                                >
+                                    Hết hạn
+                                </label>
+                                <input
+                                    type="text"
+                                    id="expiry-date"
+                                    class="payment__form-input"
+                                    placeholder="MM/YY"
+                                />
+                            </div>
+                        </div>
+                        <div class="payment__form-group">
+                            <div class="payment__form-group--sub">
+                                <label
+                                    for="ccv"
+                                    class="payment__form-label payment__form-label--bold"
+                                >
+                                    CCV
+                                </label>
+                                <input
+                                    type="text"
+                                    id="ccv"
+                                    class="payment__form-input"
+                                    placeholder="X-X-X"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="payment__actions">
+                    <button type="submit" class="btn payment__btn">
+                        Thanh toán
+                    </button>
+                    <button type="button" class="btn btn--grey payment__btn">
+                        Hủy bỏ
+                    </button>
+                </div>
+            </form>
         </main>
-        <!-- Footer Include -->
-        <%- include('partials/footer.ejs') %>
         <script type="module" src="./main.js"></script>
     </body>
 </html>
