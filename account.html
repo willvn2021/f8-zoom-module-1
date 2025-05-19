@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Acount</title>
+        <!-- Favicon -->
+<link
+    rel="icon"
+    type="image/png"
+    href="./favicon/favicon-96x96.png"
+    sizes="96x96"
+/>
+<link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+<link rel="shortcut icon" href="./favicon/favicon.ico" />
+<link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="./favicon/apple-touch-icon.png"
+/>
+<link rel="manifest" href="./favicon/site.webmanifest" />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
+    rel="stylesheet"
+/>
+
+<!-- Icon Font awesome-->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+/>
+ 
+      <script type="module" crossorigin src="/f8-zoom-module-1/assets/main-B54NSm3A.js"></script>
+      <link rel="stylesheet" crossorigin href="/f8-zoom-module-1/assets/main-C85Cn31k.css">
+    </head>
+    <body>
+        <!-- Header Include -->
+        <header class="header">
+    <div class="top-bar">
+        <div class="container top-bar__wrap">
+            <div class="top-bar__inner">
+                <div class="top-bar__left">
+                    <a href="#!" class="top-bar__inner-link">Về chúng tôi</a>
+                </div>
+                <div class="top-bar__right">
+                    <ul class="top-bar__menu">
+                        <li class="top-bar__menu-item">
+                            <a href="#!" class="top-bar__inner-link">
+                                Trung tâm hỗ trợ
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li class="top-bar__menu-item">
+                            <a href="#!" class="top-bar__inner-link">
+                                ENG
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <!-- prettier-ignore -->
+                        <li class="top-bar__menu-item top-bar__menu-item--has-dropdown">
+                            <a href="#!" class="top-bar__inner-link">
+                                <i class="fa-regular fa-circle-user"></i>
+                                Tài khoản
+                            </a>
+                            
+                            <ul class="dropdown">
+                                <li class="dropdown__option">
+                                    <a href="./sign-up.html" class="dropdown__link">
+                                        Đăng nhập
+                                    </a>
+                                </li>
+                                <li class="dropdown__option">
+                                    <a href="#!" class="dropdown__link">
+                                        Đăng ký
+                                    </a>
+                                </li>
+                                <li class="dropdown__option">
+                                    <a href="#!" class="dropdown__link">
+                                        Bộ sưu tập
+                                    </a>
+                                </li>
+                                <li class="dropdown__option">
+                                    <a href="#!" class="dropdown__link">
+                                        Online Payment
+                                    </a>
+                                </li>
+                                <li class="dropdown__option">
+                                    <a href="#!" class="dropdown__link">
+                                        User Dashboard
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Logo bar -->
+    <div class="logo-bar">
+        <div class="container logo-bar__wrap">
+            <div class="logo-bar__inner">
+                <div class="logo">
+                    <a href="#!"><img src="./img/logo.png" alt="Nap Tien" /></a>
+                </div>
+                <div class="search-header">
+                    <div class="category-select">
+                        <div class="category-select__trigger">
+                            <span class="category-select__value">
+                                All categories
+                            </span>
+                            <div class="category-select__icon">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="dropdown dropdown--category">
+                            <span class="dropdown__option">
+                                All categories
+                            </span>
+                            <span class="dropdown__option"> Category 1 </span>
+                            <span class="dropdown__option"> Category 2 </span>
+                            <span class="dropdown__option"> And One More </span>
+                        </div>
+                    </div>
+                    <input
+                        type="search"
+                        class="search-input"
+                        placeholder="Search"
+                    />
+                    <button class="search-button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navigation-bar">
+        <div class="container">
+            <div class="navigation-bar__inner">
+                <ul class="navi-menu">
+                    <li class="navi-menu__item">
+                        <a href="#!">Trang chủ</a>
+                    </li>
+                    <li class="navi-menu__item">
+                        <a href="#!">Thẻ điện thoại</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </li>
+                    <li class="navi-menu__item">
+                        <a href="#!">Nạp game</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </li>
+                </ul>
+                <div class="navi-menu__hotline">
+                    <img src="./img/icons/icon-phone-cricle.svg" alt="" />
+                    <a href="#!">Hotline: 19200 10800</a>
+                </div>
+            </div>
+            <div class="mega-menu">
+                <div class="mega-menu__sidebar">
+                    <ul class="mega-menu__sidebar-list">
+                        <li
+                            class="mega-menu__sidebar-item mega-menu__sidebar-item--active"
+                        >
+                            <a href="#!" class="mega-menu__link">
+                                Gift card
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="mega-menu__sidebar-item">
+                            <a href="#!" class="mega-menu__link">
+                                Wallet gift card
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="mega-menu__sidebar-item">
+                            <a href="#!" class="mega-menu__link">
+                                iTunes Gift card
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="mega-menu__sidebar-item">
+                            <a href="#!" class="mega-menu__link">
+                                WTFast time card
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="mega-menu__sidebar-item">
+                            <a href="#!" class="mega-menu__link">
+                                WTFAST
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mega-menu__content">
+                    <div class="mega-menu__content-column">
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                    </div>
+                    <div class="mega-menu__content-column">
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                    </div>
+                    <div class="mega-menu__content-column">
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                        <a href="#!" class="mega-menu__link">IMocar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mega-menu__overlay"></div>
+    </nav>
+</header>
+
+        <div class="bg-header">
+            <div class="account-wrap">
+                <main class="container">
+                    <div class="user-dashboard">
+                        <div class="row">
+                            <div class="col-4">
+                                <aside class="profile-sidebar">
+                                    <div class="user-avatar">
+                                        <img
+                                            src="./img/user-avatar-01.jpg"
+                                            alt="Nguyễn Xuân Việt"
+                                            class="user-avatar__img"
+                                        />
+                                        <span class="user-avatar__btn-upload">
+                                            <i class="fa-solid fa-camera"></i>
+                                        </span>
+                                    </div>
+                                    <h2 class="profile-sidebar__name">
+                                        Nguyễn Xuân Việt
+                                    </h2>
+                                    <div class="profile-sidebar__link">
+                                        <a
+                                            href="#!"
+                                            class="btn-account-info profile-sidebar__link-btn"
+                                            >Thông tin tài khoản</a
+                                        >
+                                    </div>
+                                    <div
+                                        class="line-two-dot profile-sidebar__line"
+                                    ></div>
+                                    <nav class="profile-sidebar__nav">
+                                        <ul class="profile-sidebar__list">
+                                            <li
+                                                class="profile-sidebar__item profile-sidebar__item--active"
+                                            >
+                                                <a
+                                                    href="#!"
+                                                    class="profile-sidebar__nav-link"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-user profile-sidebar__nav-icon"
+                                                    ></i>
+                                                    Tài khoản
+                                                </a>
+                                            </li>
+                                            <li class="profile-sidebar__item">
+                                                <a
+                                                    href="#!"
+                                                    class="profile-sidebar__nav-link"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-clock-rotate-left profile-sidebar__nav-icon"
+                                                    ></i>
+                                                    Lịch sử mua hàng
+                                                </a>
+                                            </li>
+                                            <li class="profile-sidebar__item">
+                                                <a
+                                                    href="#!"
+                                                    class="profile-sidebar__nav-link"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-clock-rotate-left profile-sidebar__nav-icon"
+                                                    ></i>
+                                                    Nạp tiền & Rút tiền
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </aside>
+                            </div>
+                            <div class="col-8">
+                                <div class="account-overview">
+                                    <h1 class="account-overview__title">
+                                        Tổng quan tài khoản
+                                    </h1>
+                                    <div class="account-overview__grid">
+                                        <div class="row row-cols-2">
+                                            <div class="col">
+                                                <section
+                                                    class="account-overview__card"
+                                                >
+                                                    <h3
+                                                        class="account-overview__card-title"
+                                                    >
+                                                        Số dư hiện tại
+                                                    </h3>
+                                                    <div
+                                                        class="line-two-dot account-overview__card-line"
+                                                    ></div>
+                                                    <div
+                                                        class="account-overview__balance"
+                                                    >
+                                                        <div
+                                                            class="account-overview__balance-item"
+                                                        >
+                                                            <img
+                                                                src="./img/icons/coin-icon.svg"
+                                                                alt="Coin"
+                                                                class="account-overview__balance-icon"
+                                                            />
+                                                            <span
+                                                                class="account-overview__balance-value"
+                                                                >18.000</span
+                                                            >
+                                                            <span
+                                                                class="account-overview__balance-currency"
+                                                                >đ</span
+                                                            >
+                                                        </div>
+                                                        <button
+                                                            class="btn-account-info account-overview__balance-btn"
+                                                        >
+                                                            Nạp tiền
+                                                        </button>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col">
+                                                <section
+                                                    class="account-overview__card"
+                                                >
+                                                    <header
+                                                        class="account-overview__card-header"
+                                                    >
+                                                        <h3
+                                                            class="account-overview__card-title"
+                                                        >
+                                                            Lịch sử mua hàng
+                                                        </h3>
+                                                        <a
+                                                            href="#!"
+                                                            class="account-overview__card-view-all-link"
+                                                        >
+                                                            Xem thêm
+                                                            <i
+                                                                class="fa-solid fa-angle-right"
+                                                            ></i>
+                                                        </a>
+                                                    </header>
+                                                    <div
+                                                        class="account-overview__stats"
+                                                    >
+                                                        <div
+                                                            class="account-overview__stats-item"
+                                                        >
+                                                            <span
+                                                                class="account-overview__stats-value"
+                                                                >12</span
+                                                            >
+                                                            <div
+                                                                class="account-overview__stats-label"
+                                                            >
+                                                                Chờ xử lý
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="account-overview__stats-item"
+                                                        >
+                                                            <span
+                                                                class="account-overview__stats-value"
+                                                                >8</span
+                                                            >
+                                                            <div
+                                                                class="account-overview__stats-label"
+                                                            >
+                                                                Đang xử lý
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="account-overview__stats-item"
+                                                        >
+                                                            <span
+                                                                class="account-overview__stats-value"
+                                                                >8</span
+                                                            >
+                                                            <div
+                                                                class="account-overview__stats-label"
+                                                            >
+                                                                Hoàn thành
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="account-overview__stats-item"
+                                                        >
+                                                            <span
+                                                                class="account-overview__stats-value"
+                                                                >8</span
+                                                            >
+                                                            <div
+                                                                class="account-overview__stats-label"
+                                                            >
+                                                                Bị hủy
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__main">
+            <div class="row row-cols-4">
+                <div class="col">
+                    <div class="footer__column">
+                        <h4 class="footer__heading">About Us</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">About us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">News</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">Support</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer__column">
+                        <h4 class="footer__heading">Service</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">About us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">News</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">Support</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer__column">
+                        <h4 class="footer__heading">Payment</h4>
+                        <div class="footer__payment-logo">
+                            <img
+                                src="./img/payment/paypal.png"
+                                alt="Paypal"
+                                class="footer__payment-img"
+                            />
+                            <img
+                                src="./img/payment/visa.png"
+                                alt="Visa"
+                                class="footer__payment-img"
+                            />
+                            <img
+                                src="./img/payment/shb.png"
+                                alt="SHB"
+                                class="footer__payment-img"
+                            />
+                            <img
+                                src="./img/payment/gpbank.png"
+                                alt="GP Bank"
+                                class="footer__payment-img"
+                            />
+                            <img
+                                src="./img/payment/saigonbank.png"
+                                alt="SaiGonBank"
+                                class="footer__payment-img"
+                            />
+                            <img
+                                src="./img/payment/cod.png"
+                                alt="COD"
+                                class="footer__payment-img"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer__column footer__column--last">
+                        <h4 class="footer__heading">Flow Us</h4>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#!" class="footer__social-link">
+                                    <img
+                                        src="./img/socials/facebook.svg"
+                                        alt="Facebook"
+                                        class="footer__social-img"
+                                    />
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__social-link">
+                                    <img
+                                        src="./img/socials/linkedIn.svg"
+                                        alt="LinkedIn"
+                                        class="footer__social-img"
+                                    />
+                                    LinkedIn
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__social-link">
+                                    <img
+                                        src="./img/socials/instagram.svg"
+                                        alt="Instagram"
+                                        class="footer__social-img"
+                                    />
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__social-link">
+                                    <img
+                                        src="./img/socials/zalo.svg"
+                                        alt="Zalo"
+                                        class="footer__social-img"
+                                    />
+                                    Zalo
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="row row-cols-2">
+                <div class="col">
+                    <h4 class="footer__heading">COMPANY</h4>
+                    <p class="footer__contact-info">
+                        Hotline: 0982636800 (Các ngày trong tuần từ 8h đến 24h)
+                        <br />
+                        Email: abcs@gmail.com
+                    </p>
+                </div>
+                <div class="col">
+                    <h4 class="footer__heading">certification</h4>
+                    <div class="footer__certification">
+                        <img
+                            src="./img/bo-cong-thuong-01.png"
+                            alt=""
+                            class="footer__certification-img"
+                        />
+                        <img
+                            src="./img/bo-cong-thuong-02.png"
+                            alt=""
+                            class="footer__certification-img"
+                        />
+                        <img
+                            src="./img/dmca.png"
+                            alt=""
+                            class="footer__certification-img"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__copyright">
+        <p class="footer__copyright-text">
+            &copy; 2024 by NapThe. All Rights Reserved.
+        </p>
+    </div>
+</footer>
+
+    </body>
+</html>
