@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
+        <!-- Favicon -->
+<link
+    rel="icon"
+    type="image/png"
+    href="./favicon/favicon-96x96.png"
+    sizes="96x96"
+/>
+<link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+<link rel="shortcut icon" href="./favicon/favicon.ico" />
+<link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="./favicon/apple-touch-icon.png"
+/>
+<link rel="manifest" href="./favicon/site.webmanifest" />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
+    rel="stylesheet"
+/>
+
+<!-- Icon Font awesome-->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+/>
+ 
+      <script type="module" crossorigin src="/f8-zoom-module-1/assets/main-B54NSm3A.js"></script>
+      <link rel="stylesheet" crossorigin href="/f8-zoom-module-1/assets/main-C85Cn31k.css">
+    </head>
+    <body>
+        <main class="bg-gradient">
+            <form class="payment">
+                <h1 class="payment__title">ONLINE PAYMENT</h1>
+
+                <section class="payment__section">
+                    <h2 class="payment__section-title">
+                        Thông tin vận chuyển và thanh toán
+                    </h2>
+                    <div class="payment__form-wrap">
+                        <div class="payment__form-group">
+                            <label for="name" class="payment__form-label"
+                                >Tên</label
+                            >
+                            <input
+                                type="text"
+                                id="name"
+                                class="payment__form-input"
+                                placeholder="Nhập Tên của bạn"
+                                value="Toandang"
+                            />
+                        </div>
+                        <div class="payment__form-group">
+                            <label for="name" class="payment__form-label"
+                                >E-mail</label
+                            >
+                            <input
+                                type="text"
+                                id="email"
+                                class="payment__form-input"
+                                placeholder="Nhập E-mail của bạn"
+                                value="toandesignmtcn@gmail.com"
+                            />
+                        </div>
+                    </div>
+                </section>
+                <!-- Payment Card Icon -->
+                <section class="payment__section">
+                    <h2 class="payment__section-title">Thông tin thanh toán</h2>
+                    <div class="payment__form-wrap">
+                        <div class="payment__form-group">
+                            <div class="payment__form-group--sub">
+                                <label
+                                    for="card-number"
+                                    class="payment__form-label payment__form-label--bold"
+                                >
+                                    Số thẻ
+                                </label>
+                                <div class="payment__form-input-wrap">
+                                    <input
+                                        type="text"
+                                        id="card-number"
+                                        class="payment__form-input payment__form-input--has-icon"
+                                        placeholder="Card number"
+                                    />
+                                    <i
+                                        class="far fa-credit-card payment-form__input-icon"
+                                    ></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="payment__form-group">
+                            <div class="payment__form-group--sub">
+                                <label
+                                    for="expiry-date"
+                                    class="payment__form-label payment__form-label--bold"
+                                >
+                                    Hết hạn
+                                </label>
+                                <input
+                                    type="text"
+                                    id="expiry-date"
+                                    class="payment__form-input"
+                                    placeholder="MM/YY"
+                                />
+                            </div>
+                        </div>
+                        <div class="payment__form-group">
+                            <div class="payment__form-group--sub">
+                                <label
+                                    for="ccv"
+                                    class="payment__form-label payment__form-label--bold"
+                                >
+                                    CCV
+                                </label>
+                                <input
+                                    type="text"
+                                    id="ccv"
+                                    class="payment__form-input"
+                                    placeholder="X-X-X"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="payment__actions">
+                    <button type="submit" class="btn payment__btn">
+                        Thanh toán
+                    </button>
+                    <button type="button" class="btn btn--grey payment__btn">
+                        Hủy bỏ
+                    </button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
