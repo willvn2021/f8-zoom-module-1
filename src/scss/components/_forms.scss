@@ -1,0 +1,33 @@
+.form-has-icon {
+    display: flex;
+    align-items: center;
+
+    border-radius: 100px;
+    background: #f2f2f2;
+    padding: 16px 24px;
+
+    &--btn {
+        padding: 10px 24px;
+    }
+
+    &__icon {
+        color: #323232;
+        margin-right: 16px;
+    }
+
+    &__input {
+        flex: 1;
+        border: none;
+        background-color: transparent;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            color: #afafaf;
+            font-weight: 400;
+            font-family: "Inter", sans-serif;
+        }
+    }
+}

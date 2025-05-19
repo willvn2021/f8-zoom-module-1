@@ -24,6 +24,8 @@ export default defineConfig({
                 index: path.resolve(__dirname, "src/collection.html"),
                 index: path.resolve(__dirname, "src/online-payment.html"),
                 account: path.resolve(__dirname, "src/account.html"),
+                account: path.resolve(__dirname, "src/sign-in.html"),
+                account: path.resolve(__dirname, "src/sign-up.html"),
                 // Thêm trang khác nếu có
             },
         },
